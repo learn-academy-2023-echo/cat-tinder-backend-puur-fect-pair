@@ -1,24 +1,17 @@
-# README
+As a developer, I have been commissioned to create an application where a user can see cute cats looking for friends. As a user, I can see a list of cats. I can click on a cat and see more information about that cat. I can also add cats to the list of cats looking for friends. If my work is acceptable to my client, I may also be asked to add the ability to remove a cat from the list as well as edit cat information.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+As a developer, I can create a new Rails application with a Postgresql database. ✅
 
-Things you may want to cover:
+As a developer, I can create a RSpec testing suite in my Rails application. ✅
 
-* Ruby version
+As a developer, I can add a resource for Cat that has a name, an age, what the cat enjoys doing, and an image. ✅
 
-* System dependencies
+As a developer, I can add cat seeds to the seeds.rb file. ✅
 
-* Configuration
+As a developer, I can run the rails command to add cats to database. ✅
 
-* Database creation
+As a developer, I can enable my controller to accept requests from outside applications. ✅
 
-* Database initialization
+As a developer, I can add the CORS gem to my Rails application. ✅
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+As a developer, I can add the cors.rb file to my application. ✅

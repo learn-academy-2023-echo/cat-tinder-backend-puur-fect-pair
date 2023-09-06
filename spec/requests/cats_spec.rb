@@ -9,7 +9,7 @@ RSpec.describe "Cats", type: :request do
     age: 2,
     enjoys: 'Hissing at dogs, pate with extra gravy, and catnip.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7jz1nplDstOjFlgq8_s-GV9OiqgFeWP90g&usqp=CAU'
-  }
+        }
       )
       # request to endpoint
       get '/cats'
@@ -65,7 +65,7 @@ RSpec.describe "Cats", type: :request do
       updated_cat = Cat.find(cat.id)
       expect(response).to have_http_status(200)
       expect(updated_cat.enjoys).to eq 'Hissing at dogs, pate with extra gravy, and staring out the window.'
-      
+
     end
   end
 

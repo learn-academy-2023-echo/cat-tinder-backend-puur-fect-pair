@@ -15,3 +15,17 @@ As a developer, I can enable my controller to accept requests from outside appli
 As a developer, I can add the CORS gem to my Rails application. ✅
 
 As a developer, I can add the cors.rb file to my application. ✅
+
+As a developer, I can add an index request spec to my application.
+
+As a developer, I can add an index endpoint to my application.
+
+As a developer, I can add a create request spec to my application.
+
+As a developer, I can add a create endpoint to my application.
+
+Stretch Goals
+As a developer, I can add an update request spec to my application.
+As a developer, I can add an update endpoint to my application.
+As a developer, I can add a destroy request spec to my application.
+As a developer, I can add a destroy endpoint to my application.

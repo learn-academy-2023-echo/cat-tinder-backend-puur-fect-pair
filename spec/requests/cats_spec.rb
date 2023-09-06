@@ -101,5 +101,21 @@ RSpec.describe "Cats", type: :request do
       expect(cat['age']).to include "can't be blank"
 
     end
+
+    it "is not valid without an image" do
+      cat_params = {
+        cat: {
+          name: 'Princess Peach',
+          age: 4,
+          enjoys: 'Hiding under the bed'
+        }
+      }
+
+      post '/cats', params: cat_params
+      expect(response).to have_http_status(422)
+
+      cat = JSON.parse(response.body)
+      expect(cat['image']).to include "can't be blank"
+    end
   end
 end
